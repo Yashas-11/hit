@@ -1,0 +1,740 @@
+/* Basic */
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+/* Basic End */
+
+/* Navigation Bar*/
+.navContainer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* Navigation Bar Logo*/
+.steezyLogo {
+  width: 113px;
+  height: 20px;
+  padding: 20px 15px 20px 15px;
+}
+/* Navigation - Console Bar */
+.navigate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.space {
+  font-weight: bolder;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+
+.space:hover {
+  border-top: 5px solid #ebefef;
+  cursor: pointer;
+}
+/* Navigation Bar - Login */
+.logInButton {
+  background-color: #ebefef;
+  color: black;
+  border: none;
+  border-radius: 7%;
+  padding: 5px 25px 5px 25px;
+  margin: 10px 20px 10px 20px;
+  font-weight: bolder;
+}
+
+.logInButton:hover {
+  background-color: #0b79fb;
+  color: white;
+  cursor: pointer;
+}
+/* Navigation End */
+
+/* Video Promotion */
+.promo {
+  display: flex;
+  width: 97%;
+  padding: 20px 15px 20px 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.displayVideo {
+  width: 60%;
+  height: 570px;
+  background-color: #111111;
+  border-radius: 20px;
+  object-fit: fill;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.promoText {
+  background-color: #111111;
+  padding: 20px 0px 20px 20px;
+  border-radius: 0px 25px 25px 0px;
+}
+
+.quote {
+  font-weight: bolder;
+  background-color: #111111;
+  color: white;
+  width: 250px;
+  height: 300px;
+  font-size: 65px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.advert {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  width: 350px;
+  background-color: #111111;
+  font-size: 22px;
+  margin-top: 35px;
+}
+
+.startButton {
+  background-color: #0b79fb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 20px 20px 0px;
+  padding: 20px 185px 20px 185px;
+}
+
+.startButton:hover {
+  background-color: #81f1ae;
+  color: #111111;
+  cursor: pointer;
+}
+/* Video Promotion End */
+
+/* Events */
+.levels {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+}
+
+.levelsTitle {
+  padding: 40px 0px 17px 0px;
+  font-weight: bolder;
+  font-size: 45px;
+  color: black;
+}
+
+.levelsText {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-top: 7px;
+}
+
+.catalog {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+}
+
+.scroll {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.scroll::-webkit-scrollbar {
+  width: 0.5em; /* Adjust the width as needed */
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide the thumb */
+}
+
+.scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.catalog:hover {
+}
+
+/* Event - Technical Club */
+.catalogBrandNew {
+  background-color: #fcef2e;
+  width: 250px;
+  height: 165px;
+  padding: 20px 0px 20px 20px;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+
+.brandNew {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  background-color: white;
+  color: #111111;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
+
+.brandNewText {
+  background-color: #fcef2e;
+  width: 200px;
+  padding: 20px 0px 20px 0px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+/* Levels - Beginner */
+.catalogBeginner {
+  background-color: #dcf063;
+  width: 250px;
+  height: 165px;
+  padding: 20px 0px 20px 20px;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+
+.beginner {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  width: 50px;
+  background-color: white;
+  color: #111111;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
+
+.beginnerText {
+  background-color: #dcf063;
+  width: 200px;
+  padding: 20px 0px 20px 0px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+/* Levels - Intermediate */
+.catalogIntermediate {
+  background-color: #b6f18a;
+  width: 250px;
+  height: 165px;
+  padding: 20px 0px 20px 20px;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+
+.intermediate {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  background-color: white;
+  color: #111111;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
+
+.intermediateText {
+  background-color: #b6f18a;
+  width: 200px;
+  padding: 20px 0px 0px 0px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+/* Levels - Advanced*/
+.catalogAdvanced {
+  background-color: #81f1ae;
+  width: 250px;
+  height: 165px;
+  padding: 20px 0px 20px 20px;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+
+.advanced {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  background-color: white;
+  color: #111111;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+}
+
+.advancedText {
+  background-color: #81f1ae;
+  width: 200px;
+  padding: 20px 0px 20px 0px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Levels end */
+
+/* Featuers */
+.displayMediaplayer {
+  margin: 50px 15px 20px 15px;
+  width: 96%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.mediaDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+.mediaText {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  width: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  padding: 30px 0px 30px 30px;
+}
+
+.details {
+  padding: 0px 0px 30px 30px;
+  width: 375px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.imageContainer {
+  width: 620px;
+  padding-left: 145px;
+}
+
+.mediaPlayer {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+}
+
+.mediaCatalog {
+  width: 170px;
+  padding: 10px;
+  opacity: 50%;
+  margin: 0px 0px 0px 10px;
+  border-bottom: 3px solid #ebefef;
+  gap: 10px;
+}
+
+.mediaFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  background-color: #909090;
+  border: none;
+  border-radius: 5px;
+  width: 25px;
+  padding: 8px;
+}
+
+.imgTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  padding: 12px 0px 0px 10px;
+}
+
+.mediaDescription {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  width: 160px;
+  padding-top: 10px;
+}
+
+.mediaCatalog:hover {
+  cursor: pointer;
+  opacity: 100%;
+  border-bottom: 3px solid #0b79fb;
+}
+/* Featuers End */
+
+/* Styles */
+.styles {
+  margin: 20px 15px;
+}
+
+.styles h1 {
+  padding: 20px 0px 10px 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+
+.danceImage {
+  width: 280px;
+  height: 158px;
+  border-radius: 15px;
+}
+
+.imagesCatalog {
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  grid-template-rows: repeat(4, 158);
+  padding-left: 25px;
+  gap: 23px;
+}
+
+.danceTitle {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 3px;
+}
+
+.danceImage:hover {
+  cursor: pointer;
+  transform: translate3d(0, 0, 0) scale3d(1.1, 1.1, 1.1);
+}
+/* Styles End */
+
+/* Reviews */
+.review {
+  margin: 15px 0px 20px 50px;
+  display: flex;
+}
+
+.classOneData {
+  width: 49%;
+  border-radius: 25px 25px 0px 0px;
+  background-color: #ebefef;
+}
+
+.classOneData h1 {
+  width: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  padding: 40px 30px 0px 30px;
+  background-color: transparent;
+}
+
+.classOneData p {
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 30px 20px 30px;
+  background-color: transparent;
+}
+
+.classOne .danceGif {
+  width: 589px !important;
+  height: 491px !important;
+  padding: 0px;
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.classTwo {
+  width: 49%;
+}
+/* Reviews End */
+
+/* Price */
+.price {
+  margin: 50px;
+}
+
+.price h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+.price p {
+  font-family: "Poppins", sans-serif;
+  width: 425px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.priceCatalog {
+  display: flex;
+  margin: 50px;
+  width: 100%;
+}
+
+.fixed {
+  margin-top: 40px;
+}
+
+.priceCatalogOne {
+  background-color: #ebefef;
+  width: 40%;
+  height: 388px;
+  margin-right: 10%;
+  border-radius: 25px;
+}
+
+.priceCatalogOne h3,
+p,
+span,
+button {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  letter-spacing: 1px;
+}
+
+.priceCatalogOne h3 {
+  padding: 35px 0px 15px 35px;
+  font-size: 30px;
+}
+
+.priceCatalogOne p {
+  padding: 25px 0px 0px 25px;
+}
+
+.priceCatalogOne span {
+  font-size: 80px;
+}
+
+.priceCatalogOne button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  margin: 25px;
+  padding: 25px 0px;
+}
+/* jsadbgvldsh */
+.priceCatalogTwo {
+  background-color: #cdf9df;
+  width: 40%;
+  margin-right: 10%;
+  border-radius: 25px;
+}
+
+.priceCatalogTwo h3,
+p,
+span,
+button {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  letter-spacing: 1px;
+}
+
+.priceCatalogTwo h2 {
+  background-color: #81f1ae;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 25px 25px 0px 0px;
+  padding: 15px 0px;
+}
+
+.priceCatalogTwo h3 {
+  padding: 35px 0px 15px 35px;
+  font-size: 30px;
+}
+
+.priceCatalogTwo p {
+  padding: 25px 0px 0px 25px;
+}
+
+.priceCatalogTwo span {
+  font-size: 80px;
+}
+
+.priceCatalogTwo button {
+  background-color: #0b79fb;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 90%;
+  margin: 25px;
+  padding: 25px 0px;
+}
+
+.priceCatalogTwo button:hover {
+  background-color: #81f1ae;
+  color: black;
+  cursor: pointer;
+}
+
+.student {
+  width: 100%;
+  margin: 45px 35px 75px 45px;
+}
+
+.student h1 {
+  width: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+}
+
+.student p {
+  width: 650px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 15px;
+}
+
+.student button {
+  background-color: #ebefef;
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+.studio {
+  width: 100%;
+  margin: 45px;
+  margin-bottom: 0px;
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.studioText h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  width: 350px;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+}
+
+.studioText p {
+  font-family: "Poppins", sans-serif;
+  width: 500px;
+}
+
+.studioImg {
+  width: 610px;
+  margin-left: 60px;
+  margin-top: 45px;
+}
+
+.footerConsole {
+  display: flex;
+  background-color: #81f1ae;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+.divOne {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.divOne img {
+  background-color: transparent;
+}
+
+.divTwo {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.divTwo img {
+  background-color: transparent;
+}
+
+.divThree {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.divThree img {
+  background-color: transparent;
+}
+
+.footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.divisonOne {
+  margin: 15px;
+  background-color: transparent;
+}
+.divisonOne p {
+  width: 200px;
+  color: #777777;
+  font-size: 10px;
+  opacity: 50%;
+}
+.divisonOne p:hover {
+  opacity: 100%;
+}
+.divisonOne img {
+  width: 50px;
+  margin-bottom: 75px;
+  margin-top: 50px;
+  background-color: transparent;
+}
+
+.divisonTwo {
+  background-color: transparent;
+}
+
+.divisonTwo h3 {
+  background-color: transparent;
+  color: #0b79fb;
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.divisonTwo button {
+  color: #0b79fb;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #0b79fb;
+  padding: 15px 25px;
+}
+
+.divisonThree {
+  background-color: transparent;
+  color: #777777;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.divisonFour {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+.instagram,
+.twitter,
+.tictok,
+.youtube,
+.facebook {
+  background-color: transparent;
+  display: flex;
+}
+
+.divisonFour img {
+  background-color: transparent;
+  width: 45px;
+}
+
+.divisonFour p {
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  opacity: 50%;
+  font-size: 12px;
+  color: #777777;
+}
+
+.divisonFour p:hover {
+  opacity: 100%;
+  color: white;
+}
+.art {
+  text-decoration: none;
+  color: black;
+}
